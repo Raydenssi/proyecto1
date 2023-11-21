@@ -1,3 +1,3 @@
-nombre = input("Ingrese su Nombre")
+nombre = input("Ingrese su Nombre: " )
 
-print(nombre)
+print("Bienvenido,", nombre)
