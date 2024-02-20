@@ -50,7 +50,8 @@ class JuegoArchivo(Juego):
         archivo_mapa = self.elegir_mapa_aleatorio(path_a_mapas)
         mapa, inicio, fin = self.leer_datos_mapa(archivo_mapa)
         super().__init__(mapa, inicio, fin)
-
+        
+# Aquí se encuentra la parte de los mapas aleatorios!!!
     def elegir_mapa_aleatorio(self, path: str) -> str:
         archivos = os.listdir(path)
         nombre_archivo = random.choice(archivos)
