@@ -1,7 +1,7 @@
 from readchar import readkey, key
 
 while True:
-    print(input("Presiona UP para detener el programa."))
+    print("Presiona UP para detener el programa.")
     tecla = readkey()
     if tecla == key.UP:
         break
